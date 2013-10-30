@@ -8,7 +8,7 @@ file { '/usr/local/bin/pull-updates':
 	source => 'puppet:///modules/puppet/pull-updates.sh',
 	mode   => '0755',
 }
-file { '/root/.ssh/id_rsa':
+file { '/root/.ssh/id_rsa.pub':
 	source => 'puppet:///modules/puppet/master.pub',
 	owner  => 'root',
 	mode   => '0600',
