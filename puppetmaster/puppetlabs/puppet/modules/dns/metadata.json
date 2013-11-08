@@ -1,0 +1,44 @@
+{
+  "name": "ajjahn-dns",
+  "version": "0.1.4",
+  "source": "https://github.com/ajjahn/puppet-dns",
+  "author": "Adam Jahn",
+  "license": "Apache License, Version 2.0",
+  "summary": "Module for provisioning DNS (bind9)",
+  "description": "Module for provisioning DNS (bind9)",
+  "project_page": "https://github.com/ajjahn/puppet-dns",
+  "dependencies": [
+    {
+      "name": "ripienaar/concat",
+      "version_requirement": ">=0.1.0"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Gemfile": "7634b15f0f29337cd893809af0fae03a",
+    "Gemfile.lock": "f8ea3fb78147ee937085defaf2799c7b",
+    "Modulefile": "29c0e6322274d08352d1be86ffef4cd6",
+    "README.md": "092675df1b24f239ec8caf120e8b04e2",
+    "Rakefile": "12ac7e9cd5d3d74dc04186c1a5d36fe0",
+    "manifests/collector.pp": "9843b763260e3d94e671af1710b8aaba",
+    "manifests/init.pp": "f5817b80c0822ea405cf4b71fb61659c",
+    "manifests/member.pp": "1ebaef430c809121f3452b4060daeec0",
+    "manifests/record/a.pp": "f1a563267b6c982d79af96124266576f",
+    "manifests/record/aaaa.pp": "0cd7eb5b998ab2406bb159731dab302a",
+    "manifests/record/cname.pp": "a8dfcb6c2c4ea9ad6df43a389276f65e",
+    "manifests/record/mx.pp": "8dd6582a0679171704e7627f1e44a414",
+    "manifests/record/ptr.pp": "580c2742008a7f15449afccdf299d7ca",
+    "manifests/record/txt.pp": "c3fe0be4a82e71e9de2eba1539ee0c77",
+    "manifests/record.pp": "281b2efa49dfabcd518523f071b70564",
+    "manifests/server/config.pp": "cfabb72a4f8309549d9701594efd712f",
+    "manifests/server/install.pp": "42fe251688c45f38350025327e509725",
+    "manifests/server/service.pp": "9a5fbfbd6fa86b668594b87bc0884aeb",
+    "manifests/server.pp": "7e5b7d453cfe89b8bfb181733c39131c",
+    "manifests/zone.pp": "2dc365d8c2fe2c7c11c61ee56ee44130",
+    "templates/zone.erb": "e47a5de27a67e281449a0e92ac5992a4",
+    "templates/zone_file.erb": "d0389687a397ac8fd1efef02d128e54b",
+    "templates/zone_record.erb": "e06a9c65e29a125b297419bd0e79ceb3"
+  }
+}

@@ -1,0 +1,8 @@
+production:
+  adapter: postgresql
+  database: console_auth
+  timeout: 5000
+  username: console_auth
+  password: '4mYzeifsrk9IDVYnXn1w'
+  host: localhost
+  port: 5432

@@ -1,0 +1,102 @@
+--- 
+  kernel: Linux
+  hostname: master
+  domain: rdulinux.com
+  fqdn: master.rdulinux.com
+  architecture: i386
+  augeasversion: "1.1.0"
+  blockdevice_hda_size: 4294965248
+  blockdevice_sda_size: 16106127360
+  blockdevice_sda_vendor: ATA
+  blockdevice_sda_model: "VBOX HARDDISK"
+  blockdevices: "hda,sda"
+  macaddress: "08:00:27:2E:40:59"
+  osfamily: RedHat
+  operatingsystem: RedHat
+  lsbdistid: RedHatEnterpriseServer
+  facterversion: "1.7.3"
+  filesystems: "ext2,ext3,iso9660"
+  hardwareisa: i686
+  hardwaremodel: i686
+  id: root
+  interfaces: "eth0,lo,sit0"
+  ipaddress_eth0: "10.239.52.199"
+  macaddress_eth0: "08:00:27:2E:40:59"
+  netmask_eth0: "255.255.252.0"
+  mtu_eth0: "1500"
+  ipaddress_lo: "127.0.0.1"
+  netmask_lo: "255.0.0.0"
+  mtu_lo: "16436"
+  mtu_sit0: "1480"
+  ipaddress: "10.239.52.199"
+  kernelmajversion: "2.6"
+  kernelrelease: "2.6.18-53.el5"
+  kernelversion: "2.6.18"
+  lsbdistcodename: Tikanga
+  lsbdistdescription: "Red Hat Enterprise Linux Server release 5.1 (Tikanga)"
+  lsbdistrelease: "5.1"
+  lsbmajdistrelease: "5"
+  lsbrelease: ":core-3.1-ia32:core-3.1-noarch:graphics-3.1-ia32:graphics-3.1-noarch"
+  boardmanufacturer: "Oracle Corporation"
+  boardproductname: VirtualBox
+  boardserialnumber: "0"
+  bios_vendor: "innotek GmbH"
+  bios_version: VirtualBox
+  bios_release_date: "12/01/2006"
+  manufacturer: "innotek GmbH"
+  productname: VirtualBox
+  serialnumber: "0"
+  uuid: "13C5A5BC-5DED-4011-8853-CC3857EDB83E"
+  type: Other
+  memorysize: "1011.06 MB"
+  memoryfree: "331.05 MB"
+  swapsize: "0.00 MB"
+  swapfree: "0.00 MB"
+  swapsize_mb: "0.00"
+  swapfree_mb: "0.00"
+  memorysize_mb: "1011.06"
+  memoryfree_mb: "331.05"
+  memorytotal: "1011.06 MB"
+  netmask: "255.255.252.0"
+  network_eth0: "10.239.52.0"
+  network_lo: "127.0.0.0"
+  operatingsystemmajrelease: "5"
+  operatingsystemrelease: "5.1"
+  path: "/usr/bin:/bin:/usr/sbin:/sbin"
+  physicalprocessorcount: 1
+  processor0: "Intel(R) Core(TM) i7 CPU       M 640  @ 2.80GHz"
+  processorcount: "1"
+  ps: "ps -ef"
+  puppetversion: "3.3.1 (Puppet Enterprise 3.1.0)"
+  rubysitedir: /opt/puppet/lib/ruby/site_ruby/1.9.1
+  rubyversion: "1.9.3"
+  selinux: "false"
+  sshdsakey: "AAAAB3NzaC1kc3MAAACBANZOE1k6kYS0UPqDcR4W5cTUgeBFH1bVdvcIW3zuKGBd91JTz+CT7iOv1LO6aedRcOBdP0iUIW7nPVXDhp6JAxfgJiG93Upq/2tDQJx5SeJUQaAQwr8hxz9bbT3ecnPqGD2iGN4qa73QtmDLSihql3CnG5fDHeeggRHrzS6Q0i0PAAAAFQCacmdhn/Uit51/buHkQwEfYdbG5QAAAIEAl1iRCp4oJY0/IBfijQIuE1WB2ybRNe//UQw4xl7PlVKKUQ/JPA43tlfSWxIlQ4WF5l75lMU3pL0ApynnGyA+yZ/AECc8xdhdPxJ7rHB4ct4NNsOTA6A1Wp2gjVK/Ln5sUjlXDzZxQ1YCAnlglG4i066e1iw/Db4JXHP29OW3o8YAAACBAKsFre084JXPfGZgNTbcp4cO+tUFYom537aiW3gi5pKKZcRG+7PurOcRczhVxnewduZojsCd71F6FHP8XomQ+EAODf4FIFYKDUH/FCILecK6mnUEWhGMDbwLj7VEO68k1sTFV88WDfQ17nMMKx0Fxv6YffxvrKsTelr8eyvqj6ET"
+  sshfp_dsa: |-
+    SSHFP 2 1 3ce75eecd60216f5b9d02d26ec12092e2e46c890
+    SSHFP 2 2 7ae06a28d4bbfe06239fb93e4385866f7c58d42f2167e8b6021430061a1695ab
+  sshrsakey: "AAAAB3NzaC1yc2EAAAABIwAAAQEAoQuj4HDxiYM14AWbklm7Wf5egMnbjCbki+kyZgryWx+XkiJF8l/JJVn9bcZxTml7Z1RuZ/61f1n7RA7KRjF69AdHCC6MKFsflLRZXtcjoL2n64z3VPIOzX51V5AW/M35rwy7qfy8XVHQYeyScODVmOSYp6Q9Galv/xOyBwIoKh6Bym/TazpC2cnaNmQ7CQ9E8e7Zg0y9HyoR7VvRHNswaIBXSkVbGr3Ip3AQPTP4OXDphrzGPKiaQlrUHYx81uDs40Cug15wqpVs+To86RcSlKQpaHmtjkMOwD1QlC8DfGDjJ0tjC/V97PcCy64CJHyEEcwgvWhCyqUgyPk1EZ9Qsw=="
+  sshfp_rsa: |-
+    SSHFP 1 1 61606509df660ef00388bbf3c00a94f80e7d667d
+    SSHFP 1 2 949188b68dd968fc37a1b6cd5dc97b38e2dc559701a7433ccb6b3cb1342d4897
+  timezone: IST
+  uniqueid: ef0ac734
+  uptime: "2 days"
+  uptime_days: 2
+  uptime_hours: 63
+  uptime_seconds: 228451
+  virtual: virtualbox
+  is_virtual: "true"
+  concat_basedir: /var/opt/lib/pe-puppet/concat
+  custom_auth_conf: "true"
+  ip6tables_version: "1.3.5"
+  iptables_version: "1.3.5"
+  pe_version: "3.1.0"
+  is_pe: true
+  pe_major_version: "3"
+  pe_minor_version: "1"
+  pe_patch_version: "0"
+  postgres_default_version: "8.1"
+  puppet_vardir: /var/opt/lib/pe-puppet
+  puppetdb_server_status: configured
+  root_home: /root

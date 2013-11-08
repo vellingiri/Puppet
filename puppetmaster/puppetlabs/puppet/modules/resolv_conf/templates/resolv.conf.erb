@@ -1,0 +1,15 @@
+<% if @domain -%>
+domain <%= @domain %>
+<% end -%>
+<% @_nameserver.each do |ns| -%>
+nameserver <%= ns %>
+<% end -%>
+<% if @search -%>
+search <%= @search %>
+<% end -%>
+<% if !sortlist.empty? -%>
+sortlist <%= @sortlist.join(' ') %>
+<% end -%>
+<% if @options -%>
+options <%= @options %>
+<% end -%>

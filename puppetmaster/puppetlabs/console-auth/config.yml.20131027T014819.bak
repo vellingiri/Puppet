@@ -1,0 +1,51 @@
+
+smtp:
+  address: localhost
+  port: 25
+  use_tls: false
+  ## Uncomment to enable SMTP authentication
+  #username:  smtp_username
+  #password:  smtp_password
+
+activation:
+  ## Configurable in days, 0 means infinite
+  freshness_period: 0
+
+password:
+  min_length: 8
+
+authentication:
+  ## The complete user facing URL that points to the PE console. If there is
+  ## only a single console, this is it's URL. If there is a cluster of consoles
+  ## behind a load balancer, this is the public facing URL of that network.
+  ## Used for creating activation links sent in emails.
+  ## No trailing `/`.
+  console_absolute_url: https://master:443
+
+  ## The base URL for constructing service URLs
+  ## This must be empty unless the RubyCAS server is running on a different
+  ## protocol, host, or port from the Console (e.g.: a development environment
+  ## or heavily modified installation) -- in that case it should be an complete
+  ## URL to the Console.
+  ## No trailing `/`.
+  ## console_base_url:
+
+  ## The relative base URL to RubyCAS server
+  ## If RubyCAS is running on a different port or protocol, this will be the
+  ## full protocol, host and port.
+  ## No trailing `/`.
+  cas_url: /cas
+
+  ## This is the default service a user will be directed to.
+  service_url: /
+
+  ## This is the URL the RubyCAS client uses to reach the CAS server and validate
+  ## the Service Ticket. Since it's a network call from the server side, this
+  ## needs to be absolute and fully resolvable on the server.
+  ## Unless the RubyCAS Server is running on a different host or port, using
+  ## `localhost should suffice.
+  validate_url: https://localhost:443/cas/proxyValidate
+log:
+  client_file: /var/log/pe-console-auth/cas_client.log
+  file: /var/log/pe-console-auth/auth.log
+  level: INFO

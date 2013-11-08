@@ -1,0 +1,37 @@
+
+# For information on configuring external authenticators using this file, see
+# http://docs.puppetlabs.com/pe/latest/console_auth.html
+
+---
+authenticator:
+  class: CASServer::Authenticators::SQLEncrypted
+  database:
+    reconnect: true
+    adapter: postgresql
+    database: console_auth
+    username: console_auth
+    password: 4mYzeifsrk9IDVYnXn1w
+    host: localhost
+    port: '5432'
+  user_table: users
+  username_column: username
+custom_views: /opt/puppet/share/console-auth/views
+database:
+  reconnect: true
+  adapter: postgresql
+  database: console_auth
+  username: console_auth
+  password: 4mYzeifsrk9IDVYnXn1w
+  host: localhost
+  port: '5432'
+default_locale: en
+enable_single_sign_out: true
+log:
+  file: /var/log/pe-console-auth/cas.log
+  level: INFO
+maximum_session_lifetime: 1200
+maximum_unused_login_ticket_lifetime: 300
+maximum_unused_service_ticket_lifetime: 300
+public_dir: /opt/puppet/share/console-auth/public
+session_secret: 
+

@@ -1,0 +1,17 @@
+[jetty]
+# Hostname to list for clear-text HTTP.  Default is localhost
+#host = localhost
+# Port to listen on for clear-text HTTP.
+port = 8080
+
+
+# The following are SSL specific settings. They can be configured
+# automatically with the tool puppetdb-ssl-setup, which is normally
+# ran during package installation.
+#
+# ssl-host = <HOST>
+# ssl-port = <PORT>
+# keystore = <PATH>
+# truststore = <PATH>
+# key-password = <PASSWORD>
+# trust-password = <PASSWORD>

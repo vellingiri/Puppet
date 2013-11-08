@@ -1,0 +1,29 @@
+{
+  "name": "puppet-dhcp",
+  "version": "0.1.0",
+  "source": "UNKNOWN",
+  "author": "Adam Jahn",
+  "license": "Apache License, Version 2.0",
+  "summary": "Module for provisioning DHCP",
+  "description": "Module for provisioning Internet Systems Consortium DHCP Server (dhcpd)",
+  "project_page": "https://github.com/ajjahn/puppet-dhcp",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "e11d4b7ce48920d1a143c40a9c7b3d82",
+    "README.md": "833aadcda651ac0c7d15e5d4dc7bec20",
+    "manifests/init.pp": "97770a1798a1302beaffd5f143d71661",
+    "manifests/server/config.pp": "7d743f1a8bece2c1443970706ab14aec",
+    "manifests/server/host.pp": "4db0e89775529e2020159e6e52c2cece",
+    "manifests/server/install.pp": "b1e7ff2848c14cd433327df5d7ec3f85",
+    "manifests/server/service.pp": "3306eb11fe7a61ee1fb75e5325a83719",
+    "manifests/server/subnet.pp": "ef1405b44fb864fd92d088f638be550c",
+    "manifests/server.pp": "3be5add544f8d40d0b5e92d0c0e0cce5",
+    "templates/host.conf.erb": "5e489bb4e8fdc815b122347755116a5d",
+    "templates/subnet.conf.erb": "8ad5c71ad212b4890969d08eb5f9d3ad"
+  }
+}

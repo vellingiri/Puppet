@@ -1,0 +1,25 @@
+{
+  "license": "Apache License, Version 2.0",
+  "source": "UNKNOWN",
+  "types": [
+
+  ],
+  "description": "The resolv_conf module configures /etc/resolv.conf on Linux based systems.",
+  "version": "0.0.5",
+  "summary": "Manage /etc/resolv.conf on Enterprise Linux Servers",
+  "name": "jonnyx-resolv_conf",
+  "author": "jonnyx",
+  "checksums": {
+    "README.markdown": "9a81eebc33ea48f54f25863333a286be",
+    "Modulefile": "1842ba9fe500ad33c7c4a361065e06d2",
+    "manifests/init.pp": "2c10acc8d0a54d06549c7a33de2a9c0f",
+    "templates/resolv.conf.erb": "23322930cddfa322144a4bcee2e48a82"
+  },
+  "dependencies": [
+    {
+      "version_requirement": ">=3.2.0",
+      "name": "puppetlabs/stdlib"
+    }
+  ],
+  "project_page": "UNKNOWN"
+}
