@@ -68,3 +68,6 @@ class motd{
 node agent1,agent2,agent3,agent4,agent5,agent6,agent7,agent8{
 	include useradd	,motd
 }
+
+
+
