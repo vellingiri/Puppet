@@ -1,3 +1,0 @@
-node master{
-	include puppet
-}
