@@ -1,4 +1,10 @@
-$users_list=["test1","test2","test3","test4","test5"]
+$users_list=[
+	"test1",
+	"test2",
+	"test3",
+	"test4",
+	"test5"
+]
 
 user{$users_list:
 	ensure     => absent,
